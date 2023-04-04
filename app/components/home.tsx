@@ -105,7 +105,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT for ZF</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            Your own AI assistant.
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
