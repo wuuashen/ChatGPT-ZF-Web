@@ -30,6 +30,8 @@ export function middleware(req: NextRequest) {
     );
   }
 
+  console.log("[Auth] token:", token);
+
   // inject api key
   if (!token) {
     const apiKey = serverConfig.apiKey;
